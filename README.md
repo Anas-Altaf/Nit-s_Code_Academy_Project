@@ -1,10 +1,16 @@
-# Express.js Strater 
+# Nit's Code Academy
 
 This is a Express.js project.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
+Visit here [Nit's Code Academy](https://pxs2z9-3000.csb.app/).
 
-## Resources
+## Technologies used
 
-- [CodeSandbox — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+- HTML
+- CSS
+- Node.js
+- Express.js
+- Pug Template
+
+### Developed by
+#### Anas Altaf
