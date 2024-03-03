@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Teko&display=swap');
+
+/* Variables  */
+:root{
+    --main-color : rgb(187, 48, 48);
+    --second-color : rgb(192, 132, 132);
+}
+/* _______________________ */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+}
+
+#navbar{
+    background-color: var(--main-color);
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    
+}
+#introSection{
+    background-color: black;
+    background: url(../static/bg.jpg) center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    flex-direction: column;
+    height: 300px;
+    
+}
+#introSection h1,#missionSection h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+#introSection h6{
+    color: white;
+    font-size: 40px;
+}
+#missionSection{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#missionSection .card-div{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+#missionSection .card-div .card-box{
+    border: 2px solid black;
+    margin: 0px 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+}
+#missionSection .card-box h3{
+    font-size: 30px;
+}
+#missionSection .card-box .card{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+#missionSection .card-box  .card p{
+    padding: 3px;
+}
+.mission-img{
+    width: 50px;
+    height: 50px;
+}
+#missionSection h1{
+    color: black;
+    text-align: center;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sponsorsSection h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+#sponsorsSection .sponsors-tab{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+#sponsorsSection .sponsors-tab img{
+    width: 11%;
+
+    display: inline;
+    margin: 0px 10px;
+}
+#footer{
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#footer p{
+    font-size: 20px;
+    padding-top: 10px;
+}

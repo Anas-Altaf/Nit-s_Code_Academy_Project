@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel='icon', type='image/x-icon', href='./static/crime-hacker-icon.png')
+        title Nit's Code Academy
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            h3 Nit's Code
+            div.logo
+                img(src="./static/crime-hacker-icon.png")
+            ul
+                li
+                    a(href="/") Home
+                li
+                    a(href="/") Class Info
+                li
+                    a(href="/") Services
+                li
+                    a(href="/contact") Contact
+                li
+                    a(href="/") About Us 
+        block content
+        footer#footer
+            p Copyright © by Nit's Code Academy | All Rights Reserved
+        script 
+            include ../static/index.js
