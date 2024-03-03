@@ -6,11 +6,10 @@ Visit here [Nit's Code Academy](https://pxs2z9-3000.csb.app/).
 
 ## Technologies used
 
-- HTML
 - CSS
 - Node.js
 - Express.js
-- Pug Template
+- Pug Template [HTML]
 
 ### Developed by
 #### Anas Altaf
